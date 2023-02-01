@@ -17,12 +17,58 @@
 @font-face {
     src: url('../fonts/Cerebri Sans ExtraBold.ttf');
     font-family: 'CerebriSansExtraBold'; 
+}
+@font-face {
+    src: url('../fonts/Cerebri\ Sans\ SemiBold.ttf');
+    font-family: 'CerebriSemiExtraBold'; 
+} 
+@font-face {
+    src: url('../fonts/Cerebri\ Sans\ Book.ttf');
+    font-family: 'CerebriSansBook'; 
 } 
 
 /*Dobra 1*/
-#d1 {
+#dobra1 {
     background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.5)), url('../img/2.png');
     background-position: center;
     background-size: cover;
+    border-radius: 60px;
     height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+
+
+#faixa_logo{
+    background-repeat: no-repeat;
+    background-color: var(--primary);
+    height: 95px;
+}
+
+#faixa_logo img {
+    max-width:200px;
+    max-height:95px;
+    width: auto;
+    height: auto;
+}
+
+#icone_faixa {
+    
+}
+
+#disclaimer {
+    margin-left: 30px;
+}
+
+#disclaimer h2 {
+    font-size: 28px;
+    margin-bottom: 30px;   
+}
+
+#disclaimer p {
+    font-family: 'CerebriSansBook';
+    font-size: 22px;
 }
