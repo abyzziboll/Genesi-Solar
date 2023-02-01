@@ -1,0 +1,28 @@
+:root {
+    --primary : #FFB300;
+    --secondary : #CCCCCC;
+    --tertiary : #000000;
+    --text-primary : #FFB300;
+    --text-secondary : #CCCCCC;
+    --text-tertiary: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'CerebriSansExtraBold';
+}
+
+@font-face {
+    src: url('../fonts/Cerebri Sans ExtraBold.ttf');
+    font-family: 'CerebriSansExtraBold'; 
+} 
+
+/*Dobra 1*/
+#d1 {
+    background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.5)), url('../img/2.png');
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
