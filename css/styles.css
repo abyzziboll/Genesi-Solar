@@ -33,13 +33,12 @@
     background-position: center;
     background-size: cover;
     border-radius: 60px;
-    height: 50vh;
+    height: 70vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: #FFFFFF;
 }
-
 
 
 #faixa_logo{
@@ -48,7 +47,7 @@
     height: 95px;
 }
 
-#faixa_logo img {
+#logo {
     max-width:200px;
     max-height:95px;
     width: auto;
@@ -56,7 +55,11 @@
 }
 
 #icone_faixa {
-    
+    max-width:200px;
+    max-height:80px;
+    width: auto;
+    height: auto;
+    float: right;    
 }
 
 #disclaimer {
