@@ -431,3 +431,414 @@ hr {
 #maps{
     box-shadow: 0px 7px 10px var(--sombra);  
 }
+
+@media(max-width: 500px){
+
+    /*cabecalho*/
+    #faixa_logo{
+        background-color: var(--primary);
+        height: 95px;
+    }
+
+    #logo {
+        max-width:200px;
+        max-height:95px;
+        width: auto;
+        height: auto;
+    }
+
+    #icone_faixa {
+        max-width:200px;
+        max-height:90px;
+        width: auto;
+        height: auto;
+        float: right;    
+    }
+
+    hr {
+        margin: 0px 0;
+    }
+    
+    .hr1 {
+        border: 0;
+        border-top: 10px solid #000000;
+    }
+
+    /*dobra1*/
+    #dobra1 {
+        background: linear-gradient(rgba(0, 0, 0, 0),rgba(0,0,0,0.0)), url('../img/2.png');
+        background-position: center;
+        background-size: cover;
+        height: 400px;
+        border-radius: 0px 0px 60px 60px;
+        justify-content: space-around;
+        align-items: left;
+        color: #FFFFFF;
+        box-shadow: 0px 15px 3px var(--primary);
+        text-shadow: 0px 10px 12px var(--tertiary);
+    }
+    .dobra1_in {
+        margin-left: 3%;
+        padding-top: 3%;
+        width: 90%;
+        
+    }
+
+    .dobra1_in h2 {
+        font-size: 28px;
+        margin-bottom: 25px;   
+    }
+
+    .dobra1_in p {
+        font-family: 'CerebriSansBook';
+        font-size: 24px;
+    }
+
+    /*dobra2*/
+    #dobra2 {
+        background-color:var(--text-secondary);
+        background-position: center;
+        background-size: cover;
+        height: 300px;
+        margin-top: 7%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #dobra2_in {
+        margin-left: 3%;
+        margin-right: 3%;
+        text-align: center;
+    }
+
+    #dobra2_in h2 {
+        font-size: 24px;
+        margin-bottom: 3%;
+        color : var(--primary);  
+        font-family: 'CerebriSemiExtraBold';
+        text-align: center;
+    }
+
+    #dobra2_in p {
+        font-family: 'CerebriSansBook';
+        font-size: 18px;
+        color : var(--tertiary);  
+        
+    }
+
+    /*dobra3*/
+    #dobra3 {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;   
+    }
+
+    .card1 {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 75%;
+        border-radius: 20px;
+        box-shadow: 0px 7px 10px var(--sombra);
+        margin-top: 7%;
+    }
+
+    .card1 h2{
+        font-family:'CerebriSansExtraBold';
+        padding-bottom: 3%;
+        padding-top: 3%;
+        font-size: 20px;
+    }
+
+    .card1 p{
+        font-family:'CerebriSemiExtraBold';
+        font-size: 16px;
+    }
+    .card1 .dobra3_img {
+        width: 80px;
+        height: 80px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #d3_img1 {
+        background-image: url(../img/ícone/2\(1\).png);
+    }
+    #d3_img2 {
+        background-image: url(../img/ícone/3\(1\).png);
+    }
+    #d3_img3 {
+        background-image: url(../img/ícone/4\(1\).png);
+    }
+    #d3_img4 {
+        background-image: url(../img/ícone/5.png);
+    }
+
+    /*Dobra4*/
+    #dobra4{
+        text-align: center
+    }
+
+    .btn {
+        background-color: var(--primary);
+        color: black;
+        text-transform: uppercase;
+        font-size: 22px;
+        width: 85%;
+        height: 70px;
+        border-radius: 20px;
+        padding: 3%;
+        border: none;
+        cursor: pointer;
+        opacity: 0.8;
+        font-family: 'CerebriSansExtraBold';
+        /*box-shadow: 0px 7px 10px #cac8c6;*/
+        box-shadow: 0px 7px 10px var(--sombra);
+    }
+    
+    .btn:hover {
+        opacity: 1;
+    }
+
+    /*Dobra5*/
+    #dobra5 {
+        margin-top: 7%;
+        background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.0)), url('../img/Sempre\ inovando\ e\ semre\ evoluindo\ \(1\).png');
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        padding: 5%;   
+    }
+
+    .card2 {
+        background-color: #FFFFFF;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 85%;
+        border-radius: 20px;
+        padding: 3%;
+        justify-content: space-between;
+        margin-bottom: 3%;
+    }
+
+    .card2 h2{
+        font-family:'CerebriSansExtraBold';
+        padding-bottom: 15px;
+        padding-top: 20px;
+        font-size: 22px;
+    }
+
+    .card2 p{
+        font-family:'CerebriSemiExtraBold';
+        padding-bottom: 15px;
+        font-size: 16px;
+    }
+    .card2 .dobra3_img {
+        width: 100px;
+        height: 100px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .card2 button{
+        align-self: center;
+    }
+
+    #d5_img1 {
+        background-image: url(../img/ícone/6.png);
+    }
+    #d5_img2 {
+        background-image: url(../img/ícone/8.png);
+    }
+    #d5_img3 {
+        background-image: url(../img/ícone/7.png);
+    }
+
+    .btn2 {
+        background-color: var(--primary);
+        color: #FFFFFF;
+        text-transform: uppercase;
+        font-size: 20px;
+        width: 100%;
+        height: 30%;
+        border-radius: 20px;
+        padding: 12px;
+        border: none;
+        cursor: pointer;
+        opacity: 0.8;
+        font-family: 'CerebriSansBook';
+        align-self: flex;
+    }
+    
+    .btn2:hover {
+        opacity: 1;
+    }
+
+    /*Dobra6*/
+    #dobra6 {
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        padding: 3%;  
+    }
+
+    #texto_d6 {
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+    }
+
+    #texto_d6 h2 {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 3%;
+        color : black;
+        font-family: 'CerebriSansExtraBold';
+        text-align: center;
+    }
+
+    #texto_d6 p {
+        font-family: 'CerebriSansBook';
+        font-size: 14px;
+        color : var(--tertiary);
+        margin-bottom: 3%;
+    }
+
+    .dobra6_img{
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+    }
+
+    #dobra6 img {
+        max-width:70vw;
+        max-height:70vh;
+        width: auto;
+        height: auto;
+        object-fit: cover;
+        border-radius: 100px;
+        box-shadow: 0px 15px 3px var(--primary);
+        margin-bottom: 5%;
+    } 
+
+    /*Dobra7*/
+    #dobra7{
+        text-align: center
+    }
+
+    .btn3 {
+        background-color: var(--primary);
+        color: white;
+        text-transform: uppercase;
+        font-size: 18px;
+        width: 85%;
+        height: 85px;
+        border-radius: 20px;
+        padding: 2%;
+        border: none;
+        cursor: pointer;
+        opacity: 0.8;
+        font-family: 'CerebriSansExtraBold';
+        box-shadow: 0px 7px 10px var(--sombra);
+    }
+    
+    .btn3:hover {
+        opacity: 1;
+    }
+
+    /*maps*/
+    #dobra8 {
+        background-image: url(../img/Sempre\ inovando\ e\ semre\ evoluindo\ \(2\).png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3%;
+        padding: 3%;
+        display: flex; 
+    }
+
+    #endereco{
+        display: flex;
+        flex-direction: column;   
+        justify-content: space-around;
+        order: 2;
+    }
+
+    #endereco img{
+        width: 200px;
+        height: 200px;
+        background-position: center;
+        background-size: cover;
+        align-self: center;  
+    }
+
+    #endereco .end{
+        width: 300px;
+        height: 45px;
+        border:solid 3px;
+        border-radius: 20px; 
+        margin: 10px;
+        padding-left: 10px;
+        vertical-align: middle;
+        display: flex;
+    }
+
+    #endereco .telefone{
+        width: 300px;
+        height: 45px;
+        margin: 10px;
+        padding-left: 10px;
+        vertical-align: middle;
+    }
+
+    #endereco .end2{
+        width: 300px;
+        height: 80px;
+        border:solid 3px;
+        border-radius: 20px; 
+        margin: 10px;
+        padding-left: 10px;
+        vertical-align: middle;
+        display: flex;
+    }
+
+    #endereco .end3{
+        align-self: center;
+    }
+
+    #endereco .ecnpj{
+        width: 300px;
+        height: 40px;
+        border:solid 3px;
+        border-radius: 20px;
+        margin: 10px;
+        padding: 7px; 
+    }
+
+    #endereco i {
+        color: var(--primary);
+        font-size: 2em;
+    }
+
+    #maps{
+        box-shadow: 0px 7px 10px var(--sombra); 
+        order: 1;
+        margin-bottom: 7%;
+    }
+        
+}
